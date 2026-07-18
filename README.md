@@ -13,7 +13,7 @@ This repo contains two Powershell scripts. The first sets up the environment nee
 *Currently the script only works on my local machine, but I am working on creating a version that runs on anyone's machine without needing to change the script's code*
 
 First and foremost, clone this repository by running: 
-**git clone https:// **
+**git clone https://github.com/ladyluna-77/windows11-weekly-update-script.git**
 
 Secondly, open a Powershell terminal as administrator. You cannot run updates as a non-admin, so make sure you're running as an admin or else the script will not execute.
 
@@ -26,9 +26,8 @@ After the setup script is run, your Windows machine will now automatically insta
 
 Once the setup script has been run, it cannot be run again before terminating the current weekly update task.
 
-#### Using the Windows11Update.ps1 script itself
+### Using the Windows11Update.ps1 script itself
 
 Although not necessarily intended, users can use the Windows11Update.ps1 script itself to run a one-time update check.
 The usage is the same as running the setup script: open an admin Powershell terminal, navigate to the WeeklyUpdate directory, and run:
 **.\Windows11Update.ps1**
-
